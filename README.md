@@ -1,6 +1,5 @@
 # redsocks
 redsocks proxy configure for openwrt router
-
 Make sure that you have insatalled openwrt on your router. Then run command's as following:
 
 # Update packages
@@ -27,7 +26,9 @@ service redsocks enable
 # To disable auto boot start proxy
 service redsocks disable
 
-# To update proxy IP, username, password (After update press "ESC" key then ":wq" to save or ":q!" to discard changes)
+# To update proxy IP, username, password
 vi /etc/bypass.conf
 
-# Thanks for using this method.
+After update press "ESC" key then ":wq" to save or ":q!" to discard changes
+
+Thanks for using this method.
