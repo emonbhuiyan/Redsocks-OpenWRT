@@ -12,7 +12,9 @@ Just run it and wait for completion. And enjoy. [Click here to learn step by ste
 ```
 vi /etc/redsocks.conf
 ```
-After the update press `ESC` key then `:wq` to save or `:q!` to discard changes
+After the update press `esc` key then `:wq` to save or `:q!` to discard changes
+
+![Update proxy IP, Port, Username & Password](https://i.imgur.com/aCN5vM3.png)
 
 # How to start and stop Redsocks:
 
