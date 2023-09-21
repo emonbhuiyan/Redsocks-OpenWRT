@@ -22,7 +22,6 @@ vi /etc/redsocks.conf
 ```
 After the update press `ESC` key then `:wq` to save or `:q!` to discard changes
 
-===========================================================================
 How to start and stop redsocks:
 ===========================================================================
 ### To start proxy bypass
