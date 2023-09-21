@@ -16,15 +16,15 @@ opkg install iptables iptables-mod-nat-extra redsocks
 service redsocks stop && mv /etc/redsocks.conf /etc/redsocks.conf.bkp && cd /etc && wget -O redsocks.conf https://redsocks.000webhostapp.com/redsocks/redsocks.conf && mv /etc/init.d/redsocks /etc/init.d/redsocks.bkp && cd /etc/init.d && wget -O redsocks https://redsocks.000webhostapp.com/redsocks/redsocks && chmod +x /etc/init.d/redsocks
 ```
 
-### To update proxy IP, username, password
+## To update proxy IP, username, password
 ```
 vi /etc/redsocks.conf
 ```
 After the update press `ESC` key then `:wq` to save or `:q!` to discard changes
 
-================================================================================================
-
-
+===========================================================================
+How to start and stop redsocks:
+===========================================================================
 ### To start proxy bypass
 ```
 service redsocks start
