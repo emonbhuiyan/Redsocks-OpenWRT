@@ -4,7 +4,7 @@ Redsocks is a proxy tunneling extension. However, I found a very rare tutorial a
 # One command run installation
 Run the following command to install Redsocks automatically:
 ```
-cd /tmp && wget https://github.com/emonbhuiyan/Redsocks-OpenWRT/raw/main/install.sh && chmod +x install.sh && sh install.sh && rm install.sh && clear
+cd /tmp && wget https://github.com/emonbhuiyan/Redsocks-OpenWRT/raw/main/install.sh && chmod +x install.sh && clear && sh install.sh && rm install.sh && cd / && clear
 ```
 Just run it and wait for completion. And enjoy. [Click here to learn step by step manual installation](#manual-installation-step-by-step)
 
