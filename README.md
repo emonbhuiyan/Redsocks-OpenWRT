@@ -3,10 +3,14 @@ redsocks proxy configure for openwrt router
 Make sure that you have insatalled openwrt on your router. Then run command's as following:
 
 ## Step 1: Update packages
-```opkg update```
+```
+opkg update
+```
 
 ## Step 2: Install these 3 packages
-```opkg install iptables iptables-mod-nat-extra redsocks```
+```
+opkg install iptables iptables-mod-nat-extra redsocks
+```
 
 ## Step 3: Then run this line
 ```
@@ -15,22 +19,34 @@ service redsocks stop && mv /etc/redsocks.conf /etc/redsocks.conf.bkp && cd /etc
 
 
 # To start proxy bypass
-```service redsocks start```
+```
+service redsocks start
+```
 
 # To stop proxy bypass
-```service redsocks stop```
+```
+service redsocks stop
+```
 
 # To restart proxy bypass
-```service redsocks restart```
+```
+service redsocks restart
+```
 
 # To enable auto boot start proxy
-```service redsocks enable```
+```
+service redsocks enable
+```
 
 # To disable auto boot start proxy
-```service redsocks disable```
+```
+service redsocks disable
+```
 
 # To update proxy IP, username, password
-```vi /etc/redsocks.conf```
+```
+vi /etc/redsocks.conf
+```
 
 After update press `ESC` key then `:wq` to save or `:q!` to discard changes
 
