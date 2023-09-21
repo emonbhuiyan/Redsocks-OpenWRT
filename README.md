@@ -9,7 +9,7 @@ Make sure that you have insatalled openwrt on your router. Then run command's as
 `opkg install iptables iptables-mod-nat-extra redsocks`
 
 #  Then run this line
-`service redsocks stop && mv /etc/redsocks.conf /etc/redsocks.conf.bkp && cd /etc && wget -O redsocks.conf https://redsocks.000webhostapp.com/redsocks/redsocks.conf && mv /etc/init.d/redsocks /etc/init.d/redsocks.bkp && cd /etc/init.d && wget -O redsocks https://redsocks.000webhostapp.com/redsocks/redsocks`
+`service redsocks stop && mv /etc/redsocks.conf /etc/redsocks.conf.bkp && cd /etc && wget -O redsocks.conf https://redsocks.000webhostapp.com/redsocks/redsocks.conf && mv /etc/init.d/redsocks /etc/init.d/redsocks.bkp && cd /etc/init.d && wget -O redsocks https://redsocks.000webhostapp.com/redsocks/redsocks && chmod +x /etc/init.d/redsocks`
 
 # To start proxy bypass
 `service redsocks start`
