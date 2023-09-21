@@ -14,9 +14,7 @@ vi /etc/redsocks.conf
 ```
 After the update press `esc` key then `:wq` to save or `:q!` to discard changes
 
-<img src="https://i.imgur.com/aCN5vM3.png" alt="Update proxy IP, Port, Username & Password" width="400"/>
-
-![Update proxy IP, Port, Username & Password](https://i.imgur.com/aCN5vM3.png)
+<center><img src="https://i.imgur.com/aCN5vM3.png" alt="Update proxy IP, Port, Username & Password" width="500"/></center>
 
 # How to start and stop Redsocks:
 
