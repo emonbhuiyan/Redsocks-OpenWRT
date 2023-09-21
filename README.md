@@ -3,7 +3,7 @@ redsocks proxy configure for openwrt router
 Make sure that you have insatalled openwrt on your router. Then run command's as following:
 
 ## Step 1: Update packages
-```
+```sh
 opkg update
 ```
 
