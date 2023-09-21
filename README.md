@@ -6,7 +6,7 @@ Run the following command to install Redsocks automatically:
 ```
 cd /tmp && wget https://github.com/emonbhuiyan/Redsocks-OpenWRT/raw/main/install.sh && chmod +x install.sh && sh install.sh && rm install.sh
 ```
-Just run it and wait for completion. And enjoy.
+Just run it and wait for completion. And enjoy. [Click here to learn step by step manual installation](#manual-installation-step-by-step)
 
 ## To update proxy IP, Port, Username & Password
 ```
@@ -14,7 +14,7 @@ vi /etc/redsocks.conf
 ```
 After the update press `ESC` key then `:wq` to save or `:q!` to discard changes
 
-## How to start and stop Redsocks:
+# How to start and stop Redsocks:
 
 ### To start Redsocks proxy bypass
 ```
