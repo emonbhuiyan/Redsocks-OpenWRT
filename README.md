@@ -27,7 +27,7 @@ Make sure that you have insatalled openwrt on your router. Then run command's as
 `service redsocks disable`
 
 # To update proxy IP, username, password
-`vi /etc/bypass.conf`
+`vi /etc/redsocks.conf`
 
 After update press "ESC" key then ":wq" to save or ":q!" to discard changes
 
