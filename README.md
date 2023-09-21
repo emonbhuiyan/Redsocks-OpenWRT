@@ -1,9 +1,8 @@
-# redsocks
-redsocks proxy configure for openwrt router
-Make sure that you have insatalled openwrt on your router. Then run command's as following:
+# Redsocks
+Redsocks is a proxy tunneling extension. However, I found a very rare tutorial about how to configure Redsocks on an OpenWRT router. With this tutorial, we can use it on our OpenWRT router easily. It will be helpful for BDIX bypass users of Bangladesh who are using the socks5 proxy. To install and configure Redsocks, ensure you have installed OpenWrt on your router. Then run commands as follows:
 
-## Step 1: Update packages
-```sh
+## Step 1: Update your package manager
+```
 opkg update
 ```
 
@@ -18,36 +17,35 @@ service redsocks stop && mv /etc/redsocks.conf /etc/redsocks.conf.bkp && cd /etc
 ```
 
 
-# To start proxy bypass
+### To start proxy bypass
 ```
 service redsocks start
 ```
 
-# To stop proxy bypass
+### To stop proxy bypass
 ```
 service redsocks stop
 ```
 
-# To restart proxy bypass
+### To restart proxy bypass
 ```
 service redsocks restart
 ```
 
-# To enable auto boot start proxy
+### To enable auto boot-start proxy
 ```
 service redsocks enable
 ```
 
-# To disable auto boot start proxy
+### To disable auto boot-start proxy
 ```
 service redsocks disable
 ```
 
-# To update proxy IP, username, password
+### To update proxy IP, username, password
 ```
 vi /etc/redsocks.conf
 ```
+After the update press `ESC` key then `:wq` to save or `:q!` to discard changes
 
-After update press `ESC` key then `:wq` to save or `:q!` to discard changes
-
-Thanks for using this method.
+Thanks for following my tutorial. Follow me to get more interesting tips and tricks.
