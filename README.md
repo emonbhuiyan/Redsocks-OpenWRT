@@ -1,4 +1,4 @@
-[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/wayd.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+[![Server Staus](https://uptime.betterstack.com/status-badges/v1/monitor/wayd.svg)](https://status.emon.one)
 
 # Redsocks OpenWRT
 Redsocks is a proxy tunneling extension. However, I found a very rare tutorial about how to configure Redsocks on an OpenWRT router. With this tutorial, we can use it on our OpenWRT router easily. It will be helpful for BDIX bypass users of Bangladesh who are using the socks5 proxy. To install and configure Redsocks, ensure you have installed OpenWrt on your router. Then run commands as follows:
