@@ -51,11 +51,6 @@ Manual installation step by step:
 ```
 opkg update
 ```
-
-<!-- GitAds-Verify: SS8CSW6KLS8JY2MR1O1P3MBYY9KN3PSL -->
-## GitAds Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=emonbhuiyan/redsocks-openwrt@github)](https://gitads.dev/v1/ad-track?source=emonbhuiyan/redsocks-openwrt@github)
-
 ### Step 2: Install these 3 packages
 ```
 opkg install iptables iptables-mod-nat-extra redsocks
@@ -65,6 +60,12 @@ opkg install iptables iptables-mod-nat-extra redsocks
 ```
 service redsocks stop && mv /etc/redsocks.conf /etc/redsocks.conf.bkp && cd /etc && wget https://github.com/emonbhuiyan/Redsocks-OpenWRT/raw/main/redsocks.conf && mv /etc/init.d/redsocks /etc/init.d/redsocks.bkp && cd /etc/init.d && wget https://github.com/emonbhuiyan/Redsocks-OpenWRT/raw/main/redsocks && chmod +x /etc/init.d/redsocks
 ```
+---
+<!-- GitAds-Verify: SS8CSW6KLS8JY2MR1O1P3MBYY9KN3PSL -->
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=emonbhuiyan/redsocks-openwrt@github)](https://gitads.dev/v1/ad-track?source=emonbhuiyan/redsocks-openwrt@github)
+---
+
 [Click here to install with one command run](#one-command-run-installation)
 
 Thanks for following my tutorial. Follow me to get more interesting tips and tricks.
