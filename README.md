@@ -53,6 +53,8 @@ opkg update
 ```
 
 <!-- GitAds-Verify: SS8CSW6KLS8JY2MR1O1P3MBYY9KN3PSL -->
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=emonbhuiyan/redsocks-openwrt@github)](https://gitads.dev/v1/ad-track?source=emonbhuiyan/redsocks-openwrt@github)
 
 ### Step 2: Install these 3 packages
 ```
