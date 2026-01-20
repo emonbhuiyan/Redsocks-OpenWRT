@@ -52,6 +52,8 @@ Manual installation step by step:
 opkg update
 ```
 
+<!-- GitAds-Verify: SS8CSW6KLS8JY2MR1O1P3MBYY9KN3PSL -->
+
 ### Step 2: Install these 3 packages
 ```
 opkg install iptables iptables-mod-nat-extra redsocks
